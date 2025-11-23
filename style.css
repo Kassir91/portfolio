@@ -1,3 +1,20 @@
+/* GENERAL */
+a{
+   text-decoration: none;
+}
+
+body{
+   background: beige;
+
+}
+
+
+
+h1, h2{
+   text-align: center;
+   text-transform: uppercase;
+}
+
 nav{
    display: flex;
    align-items: center;
@@ -10,3 +27,262 @@ nav a img{
    width: 40px;
    object-fit: contain;
 }
+
+nav a{
+   color: black;
+}
+
+nav ul{
+   display: flex;
+   gap: 16px;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+nav a:hover{
+   color: red;
+}
+
+/* HEADER */ 
+.header-container{
+   display: flex;
+   gap: 16px;
+   padding:32px;
+}
+.contact{
+display: flex;
+    text-decoration: none;
+    color: rgb(3, 1, 4);
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 16px;
+    border: 2px solid rgb(5, 3, 8);
+    transition: all .3s ease-in-out;
+
+}
+.contact.primary{
+   background: rgb(17, 8, 27);
+   color: white;
+}
+
+.contact.primary:hover{
+  background: rgb(22, 15, 28); 
+  border-color: rgb(32, 21, 41);
+}
+
+.plat{
+   width: 500px;
+}
+
+
+/* Services */ 
+
+.card-container{
+   display: flex;
+   gap: 16px;
+   padding:32px;
+}
+
+
+
+.card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 16px;
+   padding: 32px;
+}
+
+
+.card img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 30%;
+   object-fit: cover;
+}
+
+
+
+/* Plats */ 
+.plats-container{
+   display: flex;
+   gap: 16px;
+   padding:32px;
+}
+
+.plat{
+   background: white;
+   color: black;
+   padding: 0;
+   overflow: hidden;
+   gap: 0;
+   text-transform: none;
+   font-weight: 400;
+}
+
+.plat img{
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+}
+
+.plat-information{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 16px;
+   gap: 8px;
+}
+
+.plat-reference{
+   display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plat-reference h2, .plat-reference h3{
+   margin: 0;
+}
+
+.plat-reference h3{
+   font-size: small;
+   color: blueviolet;
+}
+
+.plat-information p{
+   font-size: 14px;
+}
+
+.plat-information .button{
+   width: -webkit-fill-available;
+   justify-content: center;
+}
+
+.button{
+display: flex;
+    text-decoration: none;
+    color: blueviolet;
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 16px;
+    border: 2px solid blueviolet;
+    transition: all .3s ease-in-out;
+
+}
+.button.primary{
+   background: blueviolet;
+   color: white;
+}
+
+.button.primary:hover{
+  background: rgb(169, 121, 214); 
+  border-color: rgb(169, 121, 214);
+}
+
+/* Avis */ 
+.avis {
+    padding: 70px 20px;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.avis h2 {
+   display: flex;
+   justify-content: center;
+   align-items: centerSS;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.avis-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+
+.card-avis {
+    background: #f5f5f5;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.texte-avis {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.etoiles {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+
+
+.profil {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.profil img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nom {
+    font-weight: 600;
+    margin: 0;
+}
+
+.emploi {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+/* Footer */ 
+
+.Contact{
+display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(3, 1, 4);
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 16px;
+    border: 2px solid rgb(5, 3, 8);
+    transition: all .3s ease-in-out;
+
+}
+.Contact.primary{
+   background: rgb(17, 8, 27);
+   color: white;
+}
+
+.Contact.primary:hover{
+  background: rgb(22, 15, 28); 
+  border-color: rgb(32, 21, 41);
+}
+
+.footer-container {
+    display: flex;
+    gap: 550px;
+    align-items: center;
+}
+
